@@ -11,10 +11,10 @@ a {
   width: 1500px;
   margin: 0 auto;
   border: 1px dotted red;
+  background-color: #F0E8EB;
 }
 .landing {
   width: 100%;
-  padding: 20px;
   height: 100vh;
 }
 .landing header {
@@ -22,7 +22,9 @@ a {
   justify-content: space-between;
   align-items: center;
   color: #808080;
-  height: 100px;
+  height: 20vh;
+  background-color: #F2E5E8;
+  padding: 10px;
 }
 .landing header h1 {
   font-size: 3rem;
@@ -31,4 +33,18 @@ a {
 .landing header a {
   color: #808080;
   margin-right: 20px;
+}
+.cta {
+  padding-left: 40px;
+  background-image: url(/cactus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -750px;
+  background-position-x: 150px;
+  height: 80vh;
+  padding-top: 200px;
+}
+.cta h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
 }
