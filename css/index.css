@@ -22,7 +22,6 @@ a {
   justify-content: space-between;
   align-items: center;
   color: #808080;
-  border: 1px solid red;
   height: 100px;
 }
 .landing header h1 {
@@ -31,4 +30,5 @@ a {
 }
 .landing header a {
   color: #808080;
+  margin-right: 20px;
 }
